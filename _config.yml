@@ -1,0 +1,26 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Baknel - CPEN Student'
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:path/
+  
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: posts
+      bodyClass: page-posts-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+google_analytics_id: null
+

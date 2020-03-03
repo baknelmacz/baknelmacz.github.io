@@ -1,7 +1,47 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Baknel Macz - Computer Engineering Nerd</h1>
-<p>This is the future site of a coding blog, documenting and displaying projects completed during my undergrad.(hi Heather)</p>
-</body>
-</html>
+---
+title: Baknel Macz - Computer Engineering Student
+layout: default
+bodyClass: page-home
+---
+
+<div class="intro pb-4">
+  <div class="container">
+    <h1>Baknel James Macz</h1>
+    <p>Current student at University of British Columbia, studying towards a Bachelor of Applied Science in Computer Engineering.</p>
+  </div>
+</div>
+
+<div class="container pt-2">
+  <div class="call">
+    <div class="call-box-top">
+      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+      <div class="call-email"><strong>Email: </strong>
+        <a href="mailto:{{ site.data.contact.email }}">
+          {{ site.data.contact.email }}
+        </a>
+      </div>
+    </div>
+    <div class="call-box-bottom">
+            <a href="{{site.baseurl}}/data/BaknelMacz-resume.pdf" class="button" download>Download Resume</a>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-4">Past Projects:</h2>
+    </div>
+    {% for post in site.data.posts %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="post">
+        {% if post.image %}<div class="feature-image"><img alt="{{ post.title }} logo" src="{{ post.image }}" /></div> {% endif %}
+        <h2 class="feature-title">
+                <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+        </h2>
+        <div class="feature-content">{{ post.description }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

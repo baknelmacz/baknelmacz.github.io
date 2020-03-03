@@ -1,0 +1,20 @@
+[
+  {
+    "title": "First Post",
+    "description": "This is the first post on this site.",
+    "image": "images/features/noun_branding_1885335.svg",
+    "url": "posts/firstPost.md"
+  },
+  {
+    "title": "Second Post",
+    "description": "This is the second Post on the site.",
+    "image": "images/features/noun_The Process_1885341.svg",
+    "url": "posts/secondPost.md"
+  },
+  {
+    "title": "Third Post",
+    "description": "This is the 3rd Post on this site.",
+    "image": "images/features/noun_3d modeling_1885342.svg",
+    "url": "posts/thirdPost.md"
+  }
+]
