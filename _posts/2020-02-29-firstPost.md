@@ -1,6 +1,8 @@
 ---
-title: 'Accounting'
-image: '/services/noun_591323.png'
+layout: posts
+title: 'First Post'
+description: this is the second post
+image: 'images/features/noun_branding_1885335.svg'
 ---
 
 Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum

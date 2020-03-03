@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: posts
 title:  "Coding Post"
 description: An example post which shows code rendering.
+image: 'images/features/noun_The Process_1885341.svg'
 date:   2019-05-23 21:03:36 +0530
 categories: Javascript NodeJS
 ---

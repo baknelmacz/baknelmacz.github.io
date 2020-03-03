@@ -1,6 +1,8 @@
 ---
-title: 'Accounting'
-image: '/services/noun_591323.png'
+layout: posts
+title: 'Third Post'
+description: this is the third example
+image: 'images/features/noun_3d modeling_1885342.svg'
 ---
 
 Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
